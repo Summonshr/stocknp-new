@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 p {
     @apply text-gray-800 mb-2;
 }
@@ -16,9 +15,5 @@ ol {
 }
 
 h3 {
-    @apply text-blue-700  mt-1;
-}
-
-.gatsby-image-wrapper {
-    height: 12rem;
+    @apply text-blue-700 mt-1;
 }

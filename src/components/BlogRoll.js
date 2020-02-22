@@ -16,7 +16,7 @@ class BlogRoll extends React.Component {
               <article className="flex flex-wrap flex-row-reverse">
                 <header className={index===0 ? 'w-full' : 'w-64'}>
                   {post.frontmatter.featuredimage ? (
-                    <div className="featured-thumbnail">
+                    <div style={{height: '12rem', overflow: 'hidden'}} className="featured-thumbnail">
                       <PreviewCompatibleImage
                         imageInfo={{
                           image: post.frontmatter.featuredimage,

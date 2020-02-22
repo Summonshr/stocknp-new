@@ -17,3 +17,7 @@ ol {
 h3 {
     @apply text-blue-700 mt-1;
 }
+
+.container {
+    @apply max-w-4xl p-2;
+}

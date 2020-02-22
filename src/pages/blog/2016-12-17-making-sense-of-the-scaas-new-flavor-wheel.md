@@ -10,6 +10,8 @@ featuredimage: /img/obmen_valyuty_na.jpg
 tags:
   - stock
 ---
+![Broker stock](/img/obmen_valyuty_na.jpg "A stock broker")
+
 Let's begin with the concepts.
 
 **Demat Account:** It is a account that holds your share. That means, when you buy shares, it gets credited to this account. You can open your demat account at various capitals. In General practice, you can have at most two demat account. Think of it like a bank's saving's account but for your stock.

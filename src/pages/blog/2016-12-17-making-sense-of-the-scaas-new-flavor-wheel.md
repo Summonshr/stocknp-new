@@ -1,35 +1,35 @@
 ---
 templateKey: blog-post
-title: Article No. 1
+title: How to begin in Nepalese stock market?
 date: 2016-12-17T15:04:10.000Z
 description: >-
-  The Coffee Taster’s Flavor Wheel, the official resource used by coffee
-  tasters, has been revised for the first time this year.
+  Following guide has been prepared for Nepalese people who are looking for
+  starting their journey in their stock market.
 featuredpost: false
-featuredimage: /img/flavor_wheel.jpg
+featuredimage: /img/nepalese-rupee-922x614_20180702155400.jpg
 tags:
-  - flavor
-  - tasting
+  - stock
 ---
-![flavor wheel](/img/flavor_wheel.jpg)
+![Broker stock](/img/nepalese-rupee-922x614_20180702155400.jpg "A stock broker")
 
-The SCAA updated the wheel to reflect the finer nuances needed to describe flavors more precisely. The new descriptions are more detailed and hence allow cuppers to distinguish between more flavors.
+Let's begin with the concepts.
 
-While this is going to be a big change for professional coffee tasters, it means a lot to you as a consumer as well. We’ll explain how the wheel came to be, how pros use it and what the flavors actually mean.
+**Demat Account:** It is a account that holds your share. That means, when you buy shares, it gets credited to this account. You can open your demat account at various capitals. In General practice, you can have at most two demat account. Think of it like a bank's saving's account but for your stock.
 
-## What the updates mean to you
+**Capital:** Capital is a subsidiary company run by bank or broker or a single entity of itself which provides you the demat services. Demat service costs Rs. 150 per year. Many of the capital provide services free of charge for first year. Visit any of the nearest branch to open a demat account.
 
-The Specialty Coffee Association of America (SCAA), founded in 1982, is a non-profit trade organization for the specialty coffee industry. With members located in more than 40 countries, SCAA represents every segment of the specialty coffee industry, including:
+**Meroshare:** It is an online website run by CDSC where you can list your stocks and view their current status. For example: how much you have got, how much bonus were added or what is your total current value. Meroshare charges Rs. 50 per year. You can find websites [here](https://meroshare.cdsc.com.np). You can specify while opening demat account whether or not you want to take it. 
 
-* producers
-* roasters
-* importers/exporters
-* retailers
-* manufacturers
-* baristas
+**Share or Stock**: Think of it as a part of the company which if you hold it, you become eligible to take the dividend from the profit it makes.
 
-For over 30 years, SCAA has been dedicated to creating a vibrant specialty coffee community by recognizing, developing and promoting specialty coffee. SCAA sets and maintains quality standards for the industry, conducts market research, and provides education, training, resources, and business services for its members.
+**Broker**: A licensed party that has the right to trade shares and exchange payment on your behalf. Most of these brokers can be easily found around Anamnagar and New Baneshwor areas. They charge you 0.6% or less of the total amount as commission for trading on your behalf.
 
-Coffee cupping, or coffee tasting, is the practice of observing the tastes and aromas of brewed coffee. It is a professional practice but can be done informally by anyone or by professionals known as "Q Graders". A standard coffee cupping procedure involves deeply sniffing the coffee, then loudly slurping the coffee so it spreads to the back of the tongue.
+**CRN Number**: It stands for C-ASBA Registration Number. It establish the connection between your bank account and demat account.
 
-The coffee taster attempts to measure aspects of the coffee's taste, specifically the body (the texture or mouthfeel, such as oiliness), sweetness, acidity (a sharp and tangy feeling, like when biting into an orange), flavour (the characters in the cup), and aftertaste. Since coffee beans embody telltale flavours from the region where they were grown, cuppers may attempt to identify the coffee's origin.
+So, once you have decided to being your journey here, follow these steps:
+
+1. Visit broker that provides the service of capital. Carry a copy of citizenship and at least two passport size photo of yours. Vision Securities (Broker No. 34) and Imperial Securities (Broker No. 45) are some of the best ones. Open a demat account, pay for the service of meroshare and fill up a KYC form for a broker account. You should get a notification through email about meroshare. You should also get a copy of demat account information. You will be able to start trading shares now.
+2. For applying IPO and right shares, you will need to get the CRN number. For that purpose, visit the near by branch where you have opened your bank account and submit a form with demat account that you opened earlier . It takes a day to finish. Now, you can apply for IPO directly online.
+3. Now, call the broker on trading line. Ask the person to buy share. Broker will ask you some information to enter into system.
+4. If the purchase is made, you will receive notification through SMS. You will have to make the payment if you have bought the shares within two days or you will receive call. 
+5. If you have sold shares, you will have to release the shares through EDIS in meroshare. Your account will be credited within 5 days. You can receive cheque at broker office or buy other shares with the money you have received.

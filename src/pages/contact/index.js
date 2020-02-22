@@ -69,7 +69,7 @@ export default class Index extends React.Component {
                     Message
                   </label>
                   <div className="control pt-2">
-                    <textarea className="w-full max-w-xl boder-b-2 border-blue-800 h-64 p-3" name={'message'} onChange={this.handleChange} id={'message'} required={true}/>
+                    <textarea className="w-full max-w-xl border-b-2 border-blue-800 h-64 p-3 bg-blue-100" name={'message'} onChange={this.handleChange} id={'message'} required={true}/>
                   </div>
                 </div>
                 <div className="field mb-6">

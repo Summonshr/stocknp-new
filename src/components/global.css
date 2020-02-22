@@ -18,3 +18,7 @@ ol {
 h3 {
     @apply text-blue-700  mt-1;
 }
+
+.gatsby-image-wrapper {
+    height: 12rem;
+}

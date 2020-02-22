@@ -21,7 +21,6 @@ const Navbar = class extends React.Component {
         </div>
         <div>
           <Link className="mr-4" to="/about">About</Link>
-          <Link className="mr-4" to="/blog">Blog</Link>
           <Link className="mr-4" to="/contact">Contact</Link>
         </div>
       </nav>

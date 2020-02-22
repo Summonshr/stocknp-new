@@ -1,17 +1,17 @@
 ---
 templateKey: blog-post
-title: what wen't wrong with Nepal Investment Bank?
+title: What wen't wrong with Nepal Investment Bank?
 date: 2020-03-01T15:04:10.000Z
 description: >-
   If you are an investor, you should know company you invest. I don't mean just
   their financial reports or business trends. 
-featuredpost: false
-featuredimage: /img/photo-1444653614773-995cb1ef9efa.jpeg
+featuredpost: true
+featuredimage: /img/NIBL_Logo-01.2e16d0ba.fill-650x500.jpg
 tags:
   - increase
   - stock
 ---
-![business](/img/photo-1444653614773-995cb1ef9efa.jpeg "business")
+![business](/img/NIBL_Logo-01.2e16d0ba.fill-650x500.jpg "business")
 
 People often base their decision of investment on how the company is doing in current scenario. Their reserve, Earning per share, Book value etc plays keep important in making decision. And it's a good thing. Most of the people follow this strategy and most of them are happy with it and to be honest, it is safest way to manage your portfolio.
 

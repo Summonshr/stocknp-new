@@ -6,11 +6,11 @@ description: >-
   Following guide has been prepared for Nepalese people who are looking for
   starting their journey in their stock market.
 featuredpost: false
-featuredimage: /img/obmen_valyuty_na.jpg
+featuredimage: /img/nepalese-rupee-922x614_20180702155400.jpg
 tags:
   - stock
 ---
-![Broker stock](/img/obmen_valyuty_na.jpg "A stock broker")
+![Broker stock](/img/nepalese-rupee-922x614_20180702155400.jpg "A stock broker")
 
 Let's begin with the concepts.
 

@@ -12,7 +12,7 @@ tags:
 ---
 Let's begin with the concept.
 
-**Demat Account:** It is a account that holds your share. That means, when you buy shares it gets credited to this account. You can open your demat account at various capitals. Banks and brokers have subsidiary company which does the job of capital.
+**Demat Account:** It is a account that holds your share. That means, when you buy shares it gets credited to this account. You can open your demat account at various capitals. Banks and brokers have subsidiary company which does the job of capital. In General practice, you can have at most two demat account.
 
 **Capital:** Capital is a subsidiary company run by bank or broker or a single entity of itself which provides you the demat services. Demat service costs Rs. 150 per year. Many of the capital provide services free of charge for first year.
 

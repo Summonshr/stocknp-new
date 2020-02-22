@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: what wen't wrong with Nepal Investment Bank?
+title: What wen't wrong with Nepal Investment Bank?
 date: 2020-03-01T15:04:10.000Z
 description: >-
   If you are an investor, you should know company you invest. I don't mean just

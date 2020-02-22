@@ -13,7 +13,7 @@ class BlogRoll extends React.Component {
         {posts &&
           posts.map(({ node: post }, index) => (
             <div className={(index ===0 ? '' : '') + " w-full flex flex-wrap" }key={post.id}>
-              <article className="flex flex-wrap flex-row-reverse">
+              <article className="flex flex-wrap flex-row-reverse border-b mb-4">
                 <header className={index===0 ? 'w-full' : 'w-64'}>
                   {post.frontmatter.featuredimage ? (
                     <div style={{height: '12rem', overflow: 'hidden'}} className="featured-thumbnail">

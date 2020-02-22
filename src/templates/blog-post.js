@@ -19,10 +19,8 @@ export const BlogPostTemplate = ({
   return (
     <section>
       {helmet || ''}
-      <h1>
-        {title}
-      </h1>
-      <p>{description}</p>
+      <h1 className="text-blue-900 text-2xl mb-2 border-b">{title}</h1>
+      <p className="text-gray-700 mb-4">{description}</p>
       <PostContent content={content} />
     </section>
   )

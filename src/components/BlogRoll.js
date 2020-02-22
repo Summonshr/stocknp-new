@@ -7,18 +7,14 @@ class BlogRoll extends React.Component {
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
-
+    const node = posts[0]
     return (
-      <div className="columns is-multiline">
+      <div className="flex flex-wrap">
         {posts &&
-          posts.map(({ node: post }) => (
-            <div className="is-parent column is-6" key={post.id}>
-              <article
-                className={`blog-list-item tile is-child box notification ${
-                  post.frontmatter.featuredpost ? 'is-featured' : ''
-                }`}
-              >
-                <header>
+          posts.map(({ node: post }, index) => (
+            <div className={(index ===0 ? '' : '') + " w-full flex flex-wrap" }key={post.id}>
+              <article className="flex flex-wrap flex-row-reverse">
+                <header className={index===0 ? 'w-full' : 'w-64'}>
                   {post.frontmatter.featuredimage ? (
                     <div className="featured-thumbnail">
                       <PreviewCompatibleImage
@@ -29,27 +25,28 @@ class BlogRoll extends React.Component {
                       />
                     </div>
                   ) : null}
-                  <p className="post-meta">
-                    <Link
-                      className="title has-text-primary is-size-4"
-                      to={post.fields.slug}
-                    >
+                  {index>0 && <span className="text-gray-700 mt-4 text-xs float-right">
+                      {post.frontmatter.date} - 2 mins Read
+                    </span>}
+                </header>
+                <div className={"flex-1 flex-grow " + (index > 0 ? 'pr-4' : '')}>
+                  <p className="w-full mt-4">
+                    <Link className={"text-blue-900 " + (index===0?'text-xl' : 'text-lg')} to={post.fields.slug}>
                       {post.frontmatter.title}
                     </Link>
-                    <span> &bull; </span>
-                    <span className="subtitle is-size-5 is-block">
+                    {index===0 && <span className="text-gray-700 text-xs float-right">
                       {post.frontmatter.date}
-                    </span>
+                    </span>}
                   </p>
-                </header>
-                <p>
-                  {post.excerpt}
-                  <br />
-                  <br />
-                  <Link className="button" to={post.fields.slug}>
-                    Keep Reading →
+                  <p className="text-gray-700 leading-loose text-sm mt-1">
+                    {post.excerpt}
+                  </p>
+                  <div className="w-full">
+                    <Link className="mb-4 mt-2 inline-block" to={post.fields.slug}>
+                      Keep Reading →
                   </Link>
-                </p>
+                  </div>
+                </div>
               </article>
             </div>
           ))}

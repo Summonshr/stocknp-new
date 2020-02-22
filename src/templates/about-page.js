@@ -9,7 +9,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
 
   return (
     <section>
-      <h2>
+      <h2 className="text-xl mb-4 border-b">
         {title}
       </h2>
       <PageContent content={content} />

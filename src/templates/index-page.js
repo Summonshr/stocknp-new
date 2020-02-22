@@ -15,14 +15,7 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
     <div >
-      <h2 className="text-xl text-gray-800">Hello, </h2>
-      <div class="flex flex-wrap justify-between">
-        <div className="leading-loose text-gray-800 w-3/4">
-          <div className="max-w-lg">
-            {description}
-          </div>
-        </div>
-      </div>
+      <BlogRoll/>
     </div>
   )
 

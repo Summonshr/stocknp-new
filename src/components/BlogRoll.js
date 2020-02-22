@@ -42,9 +42,9 @@ class BlogRoll extends React.Component {
                     {post.excerpt}
                   </p>
                   <div className="w-full">
-                    <Link className="mb-4 mt-2 inline-block" to={post.fields.slug}>
+                    <Link className="mb-4 mt-2 inline-block bg-blue-800 text-blue-100 hover:bg-blue-900 text:bg-blue-200 rounded-sm px-4 py-2" to={post.fields.slug}>
                       Keep Reading →
-                  </Link>
+                    </Link>
                   </div>
                 </div>
               </article>

@@ -14,9 +14,9 @@ class BlogRoll extends React.Component {
           posts.map(({ node: post }, index) => (
             <div className={(index ===0 ? '' : '') + " w-full flex flex-wrap" }key={post.id}>
               <article className="flex flex-wrap flex-row-reverse border-b mb-4">
-                <header className={index===0 ? 'w-full' : 'w-64'}>
+                <header className={index===0 ? 'w-full' : 'w-full md:w-64'}>
                   {post.frontmatter.featuredimage ? (
-                    <div style={{height: '12rem', overflow: 'hidden'}} className="featured-thumbnail">
+                    <div style={{maxHeight: '12rem', overflow: 'hidden'}} className="featured-thumbnail">
                       <PreviewCompatibleImage
                         imageInfo={{
                           image: post.frontmatter.featuredimage,
@@ -25,7 +25,7 @@ class BlogRoll extends React.Component {
                       />
                     </div>
                   ) : null}
-                  {index>0 && <span className="text-gray-700 mt-4 text-xs float-right">
+                  {index>0 && <span className="text-gray-700 mt-4 text-xs float-right w-auto md:w-full">
                       {post.frontmatter.date} - 2 mins Read
                     </span>}
                 </header>

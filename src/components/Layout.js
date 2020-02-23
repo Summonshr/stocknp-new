@@ -19,12 +19,12 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:url" content="/" />
         <meta property="og:image" content={`${withPrefix('/')}img/og-image.jpg`} />
       </Helmet>
-      <div className="bg-blue-800">
-        <div className="container mx-auto px-2 lg:max-w-4xl text-blue-100">
+      <div className="bg-gray-800">
+        <div className="container mx-auto lg:max-w-4xl text-blue-100">
           <Navbar />
         </div>
       </div>
-      <div class="container mx-auto px-6 lg:max-w-4xl mt-8 flex">{children}</div>
+      <div class="container mx-auto px-4 lg:px-0 lg:max-w-4xl pt-8 flex">{children}</div>
     </div>
   )
 }
